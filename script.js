@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 $(".image").ripples({
-    resolution:200,
-    perturbance:10,
+    resolution:80,
+    perturbance:7,
   })
 });
