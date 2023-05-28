@@ -1,11 +1,31 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.image{
+
+.image {
     width: 100%;
     height: 100vh;
     background: url('img11.jpg');
     background-size: cover;
+}
 
+.whatsapp-float {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 60px;
+    z-index: 999;
+    transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
 }
