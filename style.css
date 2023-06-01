@@ -50,8 +50,7 @@ body {
 }
 .work-float {
   position: fixed;
-  right: 50%;
-  transform: translateX(50%);
+  right: 90px;
   bottom: 20px;
   width: 60px;
   height: 60px;
@@ -66,8 +65,9 @@ body {
 }
 
 .work-float:hover {
-  transform: translateX(50%) scale(1.1);
+  transform: scale(1.1);
 }
+
 
 .left-button {
   position: fixed;
