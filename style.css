@@ -82,5 +82,8 @@ body {
   font-size: 16px;
   z-index: 999;
 }
+.left-button:hover {
+  background-color: #ffc107; /* Cambia el color de fondo al hacer hover */
+  color: #fff; /* Cambia el color del texto al hacer hover */
 
 
