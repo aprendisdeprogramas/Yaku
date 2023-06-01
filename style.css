@@ -48,4 +48,23 @@ body {
 .facebook-float:hover {
   transform: scale(1.1);
 }
+.custom-float {
+  position: fixed;
+  right: 100px; /* Ajusta la distancia del botón al lado de la página */
+  top: calc(50% - 30px); /* Ajusta la posición vertical del botón */
+  width: 60px;
+  height: 60px;
+  background-color: #ff0000; /* Ajusta el color de fondo deseado */
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 60px;
+  z-index: 999;
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-float:hover {
+  transform: scale(1.1);
+}
 
