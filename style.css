@@ -49,12 +49,12 @@ body {
   transform: scale(1.1);
 }
 .work-float {
-  position: fixed;
-  right: 90px;
-  bottom: 20px;
+ position: fixed;
+  right: 160px; /* Ajusta la distancia del botón al lado de la página */
+  top: calc(50% - 30px); /* Ajusta la posición vertical del botón */
   width: 60px;
   height: 60px;
-  background-color: #555555;
+  background-color: #ff0000; /* Ajusta el color de fondo deseado */
   color: #fff;
   border-radius: 50%;
   text-align: center;
