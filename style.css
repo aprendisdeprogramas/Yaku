@@ -50,7 +50,7 @@ body {
 }
 .custom-float {
   position: fixed;
-  right: 100px; /* Ajusta la distancia del botón al lado de la página */
+  right: 160px; /* Ajusta la distancia del botón al lado de la página */
   top: calc(50% - 30px); /* Ajusta la posición vertical del botón */
   width: 60px;
   height: 60px;
